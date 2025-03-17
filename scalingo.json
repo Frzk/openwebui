@@ -1,0 +1,16 @@
+{
+  "name": "Open WebUI",
+  "description": "Open WebUI is an extensible, self-hosted AI interface that adapts to your workflow, all while operating entirely offline.",
+  "keywords": ["IA", "AI", "UI", "UX"],
+  "website": "https://openwebui.com/",
+  "repository": "https://github.com/Frzk/open-webui",
+  "success_url": "/",
+  "env": {
+    "WEB_CONCURRENCY": {
+      "description": "Setting this to 1 is **currently** mandatory for Open WebUI to boot.",
+      "value": 1,
+      "required": true
+    }
+  },
+  "addons": ["postgresql:postgresql-starter-512"]
+}
