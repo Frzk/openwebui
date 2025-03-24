@@ -19,7 +19,12 @@
    scalingo --app my-openwebui addons-add postgresql postgresql-starter-512
    ```
 
-4. Push to Scalingo:
+4. Set the `WEB_CONCURRENCY` environment variable:
+   ```bash
+   scalingo --app my-openwebui env-set WEB_CONCURRENCY=1
+   ```
+
+5. Push to Scalingo:
    ```bash
    git push scalingo master
    ```
@@ -30,7 +35,7 @@
 > Please get in touch with our support team to increase the size of your
   application image to 3GB.
 
-5. Once our support team has increased the size of your application image,
+6. Once our support team has increased the size of your application image,
    trigger a new deployment:
    ```bash
    git push scalingo master
