@@ -26,9 +26,9 @@
    **This first deployment** is expected to fail: the resulting image is very
    big, even with the use of the `.slugignore` file.
 
-   > [!IMPORTANT]
-   > Please get in touch with our support team to increase the size of your
-     application image to 3GB.
+> [!IMPORTANT]
+> Please get in touch with our support team to increase the size of your
+  application image to 3GB.
 
 5. Once our support team has increased the size of your application image,
    trigger a new deployment:
